@@ -1,0 +1,19 @@
+databaseChangeLog:
+  - changeSet:
+      id: 001
+      author: Elsen
+      changes:
+        - createTable:
+            tableName: student
+            columns:
+              - column:
+                  name: id
+                  type: BIGSERIAL
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: name
+                  type: VARCHAR(100)
+              - column:
+                  name: email
+                  type: VARCHAR(100)
