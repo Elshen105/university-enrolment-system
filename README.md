@@ -49,4 +49,4 @@ This project manages student enrollments for courses in a university system. The
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/university-system.git
+   git clone https://github.com/Elshen105/university-enrolment-system.git
